@@ -1,0 +1,46 @@
+body{
+    background-color: silver
+}
+
+.grid{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: goldenrod;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border:2px solid ghostwhite;
+    box-shadow: 10px 15px 5px;
+}
+
+.gird h1{
+    background-color: gray;
+    font-size: 60px;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+.grid #question {
+    font-size: 30px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn1, #btn2, #btn3, #btn4{
+    background-color: ghostwhite;
+    font-size: 20px;
+    width: 250px;
+    font-size: 20px;
+    border: 1px solid silver;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10x;
+    height: 50px;
+}
+
+#progress {
+    color: silver;
+    font-size: 18px;
+}
