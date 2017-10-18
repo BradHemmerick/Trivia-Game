@@ -28,7 +28,7 @@ body{
     margin-top: 30px;
 }
 
-#btn1, #btn2, #btn3, #btn4{
+#btn0, #btn1, #btn2, #btn3, #start-over{
     background-color: ghostwhite;
     font-size: 20px;
     width: 250px;
@@ -43,4 +43,11 @@ body{
 #progress {
     color: silver;
     font-size: 18px;
+}
+#countdownTimer{
+    font-size: 32px;
+    text-align: center;
+}
+#center{
+    text-align: center;
 }
