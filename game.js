@@ -69,7 +69,11 @@ function loadQuestions() {
   }
 }
 
-loadQuestions()
+$("#start").on("click", function() {
+  loadQuestions();
+});
+
+
 
 function progress() {
   progressDOM.html("<p> Question " + (tracker.currentQuestion + 1) + " of " + triviaContent.length )
